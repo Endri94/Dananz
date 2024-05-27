@@ -1,0 +1,297 @@
+@media(max-width: 1200px) {
+  .about__bottom {
+    flex-wrap: wrap;
+  }
+
+  .hero__top::before {
+    content: none;
+  }
+
+  .title::before {
+    width: 290px;
+  }
+
+  .contact__inner {
+    gap: 0;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .achievement__card {
+    position: absolute;
+    width: 195px;
+    height: 276px;
+    gap: 20px;
+    padding: 16px 21px;
+  }
+
+  .achievement__inner-img {
+    position: relative;
+  }
+
+  .services__achievement-card {
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid #000;
+    gap: 0;
+  }
+
+  .portfolio__card-author {
+    right: 30%;
+    top: 0;
+    left: unset;
+  }
+
+  .portfolio__card-author--reverse {
+    left: 30%;
+    top: 0;
+    right: unset;
+  }
+
+  .portfolio__card-right {
+    max-width: unset;
+  }
+
+}
+
+@media(max-width: 1050px) {
+  .header__logo {
+    margin-right: 0;
+  }
+
+  .header__nav-list {
+    gap: 20px;
+  }
+
+  .header__nav {
+    margin-right: 0;
+  }
+
+  .header__wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .contact__inner {
+    gap: 0;
+    justify-content: space-between;
+  }
+
+  .hero__card {
+    top: 76%;
+    right: 20%;
+  }
+
+  .product__wrapper {
+    display: block;
+  }
+
+  .product__descr,
+  .product__text {
+    max-width: unset;
+  }
+
+  .material__container {
+    background-image: none;
+  }
+
+  .material__inner,
+  .material__descr,
+  .material__text {
+    max-width: unset;
+  }
+
+  .contact__title,
+  .contact__right {
+    max-width: unset;
+  }
+
+  .location__inner {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .location__inner-left {
+    max-width: unset;
+    text-align: center;
+  }
+
+  .location__left-bottom {
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+
+  .minimalism__content {
+    justify-content: center;
+  }
+
+  .minimalism__content-block {
+    max-width: unset;
+    margin-bottom: 40px;
+  }
+}
+
+@media(max-width: 860px) {
+  .main__title {
+    font-size: 43px;
+  }
+
+  .hero__aside {
+    font-size: 10px;
+  }
+
+  .hero__card {
+    width: 210px;
+    height: 327px;
+    top: 130%;
+    gap: 37px;
+    padding: 30px 18px;
+  }
+
+  .card__content-figures {
+    font-size: 30px;
+  }
+
+  .card__content-descr {
+    font-size: 10px;
+  }
+
+  .footer__inner {
+    display: block;
+    text-align: center;
+  }
+
+  .footer__left {
+    margin-bottom: 25px;
+    text-align: center;
+  }
+
+  .footer__logo {
+    display: inline-block;
+  }
+
+  .footer__title {
+    max-width: unset;
+  }
+
+  .form {
+    max-width: unset;
+  }
+
+  .footer__right-title {
+    text-align: left;
+  }
+
+  .footer__right {
+    margin-bottom: 45px;
+  }
+
+  .form-contact__input-top {
+    display: block;
+  }
+
+  .form-contact-input {
+    width: 100%;
+  }
+
+  .form-contact {
+    padding: 0 20px;
+  }
+
+
+}
+
+@media(max-width: 780px) {
+  .location__inner-right {
+    grid-template-columns: repeat(auto-fit, 334px);
+  }
+}
+
+@media(max-width: 620px) {
+  .service__img {
+    display: none;
+  }
+
+  .service {
+    margin-bottom: 759px;
+  }
+
+  .contact__title {
+    font-size: 30px;
+  }
+}
+
+@media(max-width: 550px) {
+  .product__card-number {
+    margin-right: 30px;
+  }
+
+  .card__title {
+    font-size: 28px;
+  }
+
+  .card___descr {
+    font-size: 14px;
+  }
+
+  .contact {
+    padding: 40px 20px;
+  }
+}
+
+@media(max-width: 450px) {
+
+  .about,
+  .product,
+  .contact {
+    margin-bottom: 80px;
+  }
+
+  .service {
+    margin-bottom: 675px;
+  }
+
+  .header {
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+
+  .main__title {
+    font-size: 31px;
+  }
+
+  .about__descr {
+    margin-bottom: 30px;
+    font-size: 15px;
+  }
+
+  .about__bottom {
+    gap: 30px;
+  }
+
+  .about__ceo-absolute {
+    top: 154px;
+    right: 0;
+  }
+
+  .service__descr,
+  .product__descr,
+  .material__descr {
+    font-size: 30px;
+  }
+
+  .link__title,
+  .link__number {
+    font-size: 17px;
+  }
+
+  .footer {
+    margin-bottom: 20px;
+  }
+
+  .achievement__descr {
+    font-size: 24px;
+  }
+}
